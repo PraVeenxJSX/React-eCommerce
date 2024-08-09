@@ -19,6 +19,7 @@ const Navbar = () => {
 
         <div className="search">
           <input type="text" placeholder="Search..." />
+          <button className="button">search</button>
         </div>
         <div className="user">
           <div className="user-detail">SignIN/SignUp</div>
