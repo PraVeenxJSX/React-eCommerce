@@ -12,15 +12,13 @@ const Kitchen = () => {
    <div className='proSection' style={{gap: '2rem', flexWrap: 'wrap', justifyContent: 'flex-start'}}>
         {firstFiveImages.map((item, idx) => (
           <div
-            className='imgBox'
+            className='imgBox responsive-card'
             style={{
               background: '#fff',
               borderRadius: '18px',
               boxShadow: '0 4px 24px rgba(80,80,180,0.10)',
               padding: '18px',
               margin: '12px 0',
-              minWidth: '220px',
-              maxWidth: '240px',
               transition: 'transform 0.2s, box-shadow 0.2s',
               position: 'relative',
               display: 'flex',
